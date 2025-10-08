@@ -22,8 +22,8 @@ Currently learning and building projects that combine **DevOps + Programming + C
 🔹 [**DevOps Microservices Ecommerce**](https://github.com/JuanchoGonza98/devops-microservices-ecommerce)  
 Microservices-based ecommerce platform (Java + Python) with Docker, PostgreSQL, and CI/CD pipelines.  
 
-🔹 [**Taller Mecánico System**](https://github.com/JuanchoGonza98/taller-mecanico)  
-Full backend/frontend system for a workshop, using **JEE + WildFly + Postgres**.  
+🔹 [**Django CMS**](https://github.com/Elias-Gill/django_cms)  
+Contributed to a **content management system built with Django & PostgreSQL**, focusing on CI/CD, DEVOPS practices, docker and programming.
 
 🔹 [**Blockchain DApps**](https://github.com/JuanchoGonza98/blockchain-projects)  
 Decentralized applications with **Solidity, ethers.js, MetaMask, React**, deployed on Ephemery testnet.  
