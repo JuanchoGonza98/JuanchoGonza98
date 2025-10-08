@@ -39,7 +39,7 @@ Decentralized applications with **Solidity, ethers.js, MetaMask, React**, deploy
 
 ## 📫 Let’s Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https:www.linkedin.com/in/juan-andres-gonzalez-arevalos-75808a1b2)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/juan-andres-gonzalez-arevalos-75808a1b2)  
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/JuanchoGonza98)  
 
 ---
