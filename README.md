@@ -25,7 +25,7 @@ Microservices-based ecommerce platform (Java + Python) with Docker, PostgreSQL, 
 🔹 [**Django CMS**](https://github.com/Elias-Gill/django_cms)  
 Contributed to a **content management system built with Django & PostgreSQL**, focusing on CI/CD, DEVOPS practices, docker and programming.
 
-🔹 [****Ecommerce Backend**](https://github.com/androceo123/ecommerce-backend)   
+🔹 [**Ecommerce Backend**](https://github.com/androceo123/ecommerce-backend)   
 Backend for an ecommerce platform using **JEE (JPA, EJB, JAX-RS)** + **PostgreSQL**.  
 Includes modules for products, clients, sales, inventory control, and email notifications.
 
