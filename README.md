@@ -25,8 +25,10 @@ Microservices-based ecommerce platform (Java + Python) with Docker, PostgreSQL, 
 🔹 [**Django CMS**](https://github.com/Elias-Gill/django_cms)  
 Contributed to a **content management system built with Django & PostgreSQL**, focusing on CI/CD, DEVOPS practices, docker and programming.
 
-🔹 [**Blockchain DApps**](https://github.com/JuanchoGonza98/blockchain-projects)  
-Decentralized applications with **Solidity, ethers.js, MetaMask, React**, deployed on Ephemery testnet.  
+🔹 [**Blockchain DApps**](https://github.com/androceo123/ecommerce-backend)  
+🛒 Ecommerce Backend  
+Backend for an ecommerce platform using **JEE (JPA, EJB, JAX-RS)** + **PostgreSQL**.  
+Includes modules for products, clients, sales, inventory control, and email notifications.
 
 ---
 
