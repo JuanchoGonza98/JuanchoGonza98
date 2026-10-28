@@ -1,41 +1,35 @@
 <p align="center">
-  <img src="assets/profile-banner.gif" width="100%" alt="Juan Andrés González. DevOps and Platform Engineering. To God be the glory. Colossians 3:23.">
+  <img src="assets/profile-header.gif" width="100%" alt="Juan Andrés González, DevOps Engineer in Paraguay. Infrastructure with purpose. To God be the glory.">
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/juan-andres-gonzalez-arevalos-75808a1b2/"><strong>LinkedIn</strong></a>
+  <a href="https://www.linkedin.com/in/juan-andres-gonzalez-arevalos-75808a1b2/">LinkedIn</a>
   &nbsp; / &nbsp;
-  <a href="mailto:juanandresgonza98@gmail.com"><strong>Email</strong></a>
+  <a href="mailto:juanandresgonza98@gmail.com">Email</a>
   &nbsp; / &nbsp;
-  <a href="https://github.com/JuanchoGonza98/terraform-s3-portfolio"><strong>Featured project</strong></a>
+  <a href="#selected-work">Selected work</a>
   &nbsp; / &nbsp;
-  <a href="assets/profile-banner.png">Static banner</a>
+  <a href="STATIC.md">View without animation</a>
 </p>
 
 <br>
 
-### A little about the engineer
+### The engineer behind the work
 
-I'm **Juancho**, a DevOps Engineer based in Paraguay. I work with Kubernetes platforms, Linux systems, and infrastructure automation. My backend experience helps me connect application development with the systems that run it.
+I'm **Juancho**, a DevOps Engineer based in Paraguay. I work with Kubernetes platforms, Linux systems, and infrastructure automation. My backend experience helps me connect how applications are developed with how they run.
 
-I enjoy the moment when a complex system starts making sense: a deployment becomes repeatable, a failure has an explanation, or a runbook helps someone solve the next incident.
+I enjoy understanding a system deeply enough to explain it: following the request path, investigating a failure, making a deployment repeatable, and leaving useful documentation for the next person.
 
-Here I share projects with enough context to explore **what I built, how it works, and why I made each decision**.
+**My faith in Jesus Christ is part of who I am.** I seek to honor God through diligence, integrity, humility, and care in the work I do and the knowledge I share.
 
-<br>
-
-### Faith at the heart of my work
-
-**To God be the glory.** My faith in Jesus Christ is part of who I am and how I want to work: with diligence, integrity, humility, and care for the people who depend on what I build.
-
-I seek to honor Him in the work I do, the things I learn, and the knowledge I share.
-
-<a href="https://www.biblegateway.com/passage/?search=Colossians%203%3A23&amp;version=KJV">
-  <img src="assets/colossians-3-23.png" width="100%" alt="Colossians 3:23 (KJV): And whatsoever ye do, do it heartily, as to the Lord, and not unto men;">
-</a>
+<p>
+  <a href="https://www.biblegateway.com/passage/?search=Colossians%203%3A23&amp;version=KJV">
+    <img src="assets/colossians-3-23.png" width="100%" alt="To God be the glory. Colossians 3:23, King James Version.">
+  </a>
+</p>
 
 <details>
-<summary>Read the verse as text</summary>
+<summary>Read Colossians 3:23 as text</summary>
 
 > And whatsoever ye do, do it heartily, as to the Lord, and not unto men;
 >
@@ -45,101 +39,109 @@ I seek to honor Him in the work I do, the things I learn, and the knowledge I sh
 
 <br>
 
-## 01 / Selected work
+## Selected work
+
+The animations below are conceptual illustrations. Project documentation provides the deployment details and verification evidence.
 
 <a href="https://github.com/JuanchoGonza98/terraform-s3-portfolio">
-  <img src="assets/terraform-cover.png" width="100%" alt="Featured project: Terraform infrastructure with private S3, CloudFront, and GitHub Actions OIDC.">
+  <img src="assets/terraform-project.gif" width="100%" alt="Terraform S3 Portfolio: source, plan, CloudFront delivery, and a private S3 origin.">
 </a>
 
 ### [Terraform S3 Portfolio](https://github.com/JuanchoGonza98/terraform-s3-portfolio)
 
-A working AWS website with a private S3 origin, CloudFront delivery, and a manual deployment workflow using temporary AWS credentials.
+A working static website on AWS with a private S3 origin, CloudFront, and a manual GitHub Actions workflow using OIDC.
 
-| Build | Understand | Reproduce |
-| --- | --- | --- |
-| Reusable Terraform module, website objects, and environment metadata | OAC access boundaries, independent state keys, and explicit cost assumptions | Saved plans, manual apply, setup instructions, verification evidence, and cleanup guidance |
+**What I practiced:** reusable Terraform modules, `for_each`, templates, separate DEV/HML state keys, native S3 locking, saved plans, and explicit manual apply.
 
-**Start exploring:** [Architecture](https://github.com/JuanchoGonza98/terraform-s3-portfolio#architecture) · [Security decisions](https://github.com/JuanchoGonza98/terraform-s3-portfolio/blob/main/SECURITY.md) · [Workflow runs](https://github.com/JuanchoGonza98/terraform-s3-portfolio/actions)
+**What I documented:** access boundaries, accepted security findings, usage-based cost assumptions, verification evidence, and cleanup procedures.
+
+[Architecture](https://github.com/JuanchoGonza98/terraform-s3-portfolio#architecture) · [Security decisions](https://github.com/JuanchoGonza98/terraform-s3-portfolio/blob/main/SECURITY.md) · [Workflow runs](https://github.com/JuanchoGonza98/terraform-s3-portfolio/actions)
 
 <details>
-<summary><strong>A useful detail about the environments</strong></summary>
+<summary>Environment scope</summary>
 
-DEV includes CloudFront and the private S3 origin. HML demonstrates separate S3 resources and state. Its deployment predates the CloudFront addition to the shared root configuration, so a new HML plan may propose additional resources. The README explains this boundary.
+DEV includes CloudFront and its private S3 origin. HML demonstrates separate S3 resources and state. Its deployment predates the CloudFront addition to the shared root configuration; a new HML plan can propose additional resources. The project README documents this boundary.
 
 </details>
 
 <br>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/JuanchoGonza98/devops-python-microservices-platform">Python Microservices Platform</a></h3>
-      <p>Connecting backend development, container delivery, and Kubernetes deployment.</p>
-      <p><strong>Explore:</strong> FastAPI services, an Nginx gateway, Docker, Kustomize overlays, GitHub Actions, GHCR, and Argo CD.</p>
-      <p><sub>APPLICATIONS / CONTAINERS / GITOPS</sub></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/JuanchoGonza98/kvm-k8s-opentofu-ansible">OpenTofu / KVM Lab</a></h3>
-      <p>Turning lab infrastructure into a repeatable environment for platform experimentation.</p>
-      <p><strong>Explore:</strong> infrastructure provisioning with OpenTofu, libvirt/KVM, and cloud-init.</p>
-      <p><sub>INFRASTRUCTURE / LINUX / REPRODUCIBILITY</sub></p>
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/JuanchoGonza98/devops-python-microservices-platform">
+  <img src="assets/microservices-project.gif" width="100%" alt="Python Microservices Platform: FastAPI, CI and GHCR, Argo CD, and Kubernetes.">
+</a>
 
-**Also contributed to:** [Django CMS](https://github.com/Elias-Gill/django_cms), a Django and PostgreSQL application, through CI/CD, Docker, DevOps practices, and application development.
+### [Python Microservices Platform](https://github.com/JuanchoGonza98/devops-python-microservices-platform)
+
+A FastAPI-based project connecting application development with container delivery and Kubernetes deployments.
+
+**Explore:** an Nginx gateway, Docker workflows, Kubernetes manifests, Kustomize overlays, GitHub Actions CI, GHCR image publishing, and Argo CD-based GitOps delivery.
+
+**The connection that interests me:** how application code, container images, deployment configuration, and reconciliation fit together.
 
 <br>
 
-## 02 / How I think about the work
+<a href="https://github.com/JuanchoGonza98/kvm-k8s-opentofu-ansible">
+  <img src="assets/lab-project.gif" width="100%" alt="OpenTofu KVM lab: infrastructure declarations, libvirt, cloud-init, and Linux virtual machines.">
+</a>
 
-| Principle | What it means in practice |
+### [OpenTofu / KVM Lab Automation](https://github.com/JuanchoGonza98/kvm-k8s-opentofu-ansible)
+
+Infrastructure provisioning with OpenTofu, libvirt/KVM, and cloud-init for repeatable lab environments and platform testing.
+
+**Explore:** how a declared configuration becomes a reproducible environment for learning, experimentation, and troubleshooting.
+
+<br>
+
+<a href="https://github.com/Elias-Gill/django_cms">
+  <img src="assets/django-project.gif" width="100%" alt="Django CMS contribution, involving Django, PostgreSQL, Docker, and CI/CD practices.">
+</a>
+
+### [Django CMS — Contribution](https://github.com/Elias-Gill/django_cms)
+
+Contributed to a content management system built with Django and PostgreSQL, working on CI/CD, Docker, DevOps practices, and application development.
+
+**The perspective it adds:** understanding the application alongside its infrastructure and delivery workflow.
+
+<br>
+
+## How I approach the work
+
+| Principle | In practice |
 | --- | --- |
-| **Understand the system** | Follow the request path, dependencies, identities, and state before changing the configuration. |
-| **Use evidence** | Troubleshoot through logs, configuration, and checks that others can repeat. |
-| **Make changes reviewable** | Keep infrastructure and deployment behavior in code, with clear plans and boundaries. |
-| **Explain the tradeoffs** | Describe the scope, costs, security decisions, and operational limitations. |
-| **Leave useful documentation** | Write the README and runbook that I would want to find when returning to a system. |
+| **Understand the system** | Follow dependencies, request paths, identities, and state before changing configuration. |
+| **Troubleshoot with evidence** | Use logs, configuration, and reproducible checks to narrow down a failure. |
+| **Make changes reviewable** | Keep infrastructure and delivery behavior in code, with clear plans and boundaries. |
+| **Explain the decisions** | Document scope, operational limits, security tradeoffs, and cost assumptions. |
+| **Share what I learn** | Write the README and runbook I would want to find when returning to a system. |
 
 <br>
 
-## 03 / My technical landscape
+## Technical landscape
 
-**Platforms**  
-Kubernetes · VMware Tanzu · vSphere · Docker · libvirt/KVM
-
-**Infrastructure & delivery**  
-Terraform · OpenTofu · Ansible · GitHub Actions · Argo CD · GitOps
-
-**Systems & backend**  
-Linux · Python · FastAPI · Django · Nginx · PostgreSQL
+| Platforms | Infrastructure & delivery | Systems & backend |
+| --- | --- | --- |
+| Kubernetes | Terraform / OpenTofu | Linux |
+| VMware Tanzu | Ansible | Python |
+| vSphere | GitHub Actions | FastAPI / Django |
+| Docker / libvirt / KVM | Argo CD / GitOps | Nginx / PostgreSQL |
 
 <br>
 
-## 04 / Learning, with a direction
+## Learning with a direction
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <h4>Earned</h4>
-      <p>VMware Certified Tanzu Kubernetes Operator</p>
-    </td>
-    <td valign="top" width="50%">
-      <h4>Preparing</h4>
-      <p>Terraform Associate<br>Certified Kubernetes Administrator (CKA)</p>
-    </td>
-  </tr>
-</table>
+**Earned** — VMware Certified Tanzu Kubernetes Operator.
 
-Also on my learning path: **VMware Cloud Foundation / VKS administration** and **RHCSA**.
+**Preparing** — Terraform Associate and Certified Kubernetes Administrator (CKA).
 
-I use hands-on projects to connect the syllabus to practical decisions: who owns the state, how access is granted, what a deployment changes, and how to troubleshoot it.
+**Also on my learning path** — VMware Cloud Foundation / VKS administration and RHCSA.
+
+I use hands-on projects to connect study with practical questions: who owns the state, how access is granted, what a deployment changes, and how to troubleshoot it.
 
 <br>
 
 ---
 
 <p align="center">
-  <strong>To God be the glory. In every season, in every line of work.</strong><br>
+  <strong>To God be the glory.</strong><br>
   <sub>JUAN ANDRÉS GONZÁLEZ / PARAGUAY / COLOSSIANS 3:23</sub>
 </p>
