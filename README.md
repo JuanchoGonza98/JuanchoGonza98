@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.gif" width="100%" alt="Juan Andrés González, DevOps Engineer in Paraguay. Infrastructure with purpose. To God be the glory.">
+  <img src="assets/profile-header.gif" width="100%" alt="Juan Andrés González, DevOps and Cloud Engineer in Paraguay. Infrastructure with purpose. To God be the glory.">
 </p>
 
 <p align="center">
@@ -14,9 +14,11 @@
 
 <br>
 
-### The engineer behind the work
+### DevOps & Cloud Engineer
 
-I'm **Juancho**, a DevOps Engineer based in Paraguay. I work with Kubernetes platforms, Linux systems, and infrastructure automation. My backend experience helps me connect how applications are developed with how they run.
+I'm **Juancho**, based in Paraguay. My current role is DevOps Engineer, working on AWS infrastructure, serverless applications, deployment workflows, and Linux operations.
+
+My work connects **cloud architecture, infrastructure as code, security configuration, and troubleshooting**. My platform background includes Kubernetes, VMware Tanzu, and vSphere; my backend experience helps me understand the applications that run on that infrastructure.
 
 I enjoy understanding a system deeply enough to explain it: following the request path, investigating a failure, making a deployment repeatable, and leaving useful documentation for the next person.
 
@@ -39,9 +41,27 @@ I enjoy understanding a system deeply enough to explain it: following the reques
 
 <br>
 
+## What I work on professionally
+
+My current work involves AWS infrastructure and application delivery across separate environments, alongside operational troubleshooting and technical documentation.
+
+| Area | Work I do |
+| --- | --- |
+| **AWS & serverless** | Build and maintain Terraform configuration for ZIP and container-based Lambda functions, API Gateway, Step Functions, SQS, DynamoDB, S3, and ECR integrations. |
+| **Security & connectivity** | Configure IAM permissions, KMS and SSM integrations, private connectivity, and environment-specific settings within established security requirements. |
+| **Infrastructure & delivery** | Adapt infrastructure changes to shared modules and corporate pipelines; diagnose Terraform and deployment failures; coordinate changes across development and homologation environments. |
+| **Observability & Linux operations** | Operate and troubleshoot Elasticsearch, Kibana, and Filebeat on EC2, including log ingestion, memory pressure, and storage issues. |
+| **Operational clarity** | Prepare deployment procedures, runbooks, and technical documentation to support repeatable changes and production handovers. |
+
+My platform experience also includes Kubernetes and VMware environments, GitOps workflows, and application deployment. The projects below provide public examples of how I build and learn.
+
+<br>
+
 ## Selected work
 
-The animations below are conceptual illustrations. Project documentation provides the deployment details and verification evidence.
+**Personal projects and contributions.** These complement my professional experience with code, architecture notes, and reproducible exercises that can be shared publicly.
+
+The animations are conceptual illustrations; project documentation provides implementation details and verification evidence.
 
 <a href="https://github.com/JuanchoGonza98/terraform-s3-portfolio">
   <img src="assets/terraform-project.gif" width="100%" alt="Terraform S3 Portfolio: source, plan, CloudFront delivery, and a private S3 origin.">
@@ -49,11 +69,13 @@ The animations below are conceptual illustrations. Project documentation provide
 
 ### [Terraform S3 Portfolio](https://github.com/JuanchoGonza98/terraform-s3-portfolio)
 
-A working static website on AWS with a private S3 origin, CloudFront, and a manual GitHub Actions workflow using OIDC.
+An AWS cloud infrastructure project serving a static website through CloudFront while keeping its S3 origin private.
 
-**What I practiced:** reusable Terraform modules, `for_each`, templates, separate DEV/HML state keys, native S3 locking, saved plans, and explicit manual apply.
+**Cloud engineering:** OAC and distribution-scoped bucket access, HTTPS delivery, SSE-S3 encryption, object versioning and retention, and usage-based cost estimates.
 
-**What I documented:** access boundaries, accepted security findings, usage-based cost assumptions, verification evidence, and cleanup procedures.
+**Infrastructure & delivery:** reusable Terraform modules, `for_each`, templates, separate DEV/HML state keys, native S3 locking, and a manual GitHub Actions workflow using temporary OIDC credentials and saved plans.
+
+**Evidence:** documented security tradeoffs, tested access boundaries, a deployed content update, and cleanup procedures.
 
 [Architecture](https://github.com/JuanchoGonza98/terraform-s3-portfolio#architecture) · [Security decisions](https://github.com/JuanchoGonza98/terraform-s3-portfolio/blob/main/SECURITY.md) · [Workflow runs](https://github.com/JuanchoGonza98/terraform-s3-portfolio/actions)
 
@@ -118,12 +140,14 @@ Contributed to a content management system built with Django and PostgreSQL, wor
 
 ## Technical landscape
 
-| Platforms | Infrastructure & delivery | Systems & backend |
-| --- | --- | --- |
-| Kubernetes | Terraform / OpenTofu | Linux |
-| VMware Tanzu | Ansible | Python |
-| vSphere | GitHub Actions | FastAPI / Django |
-| Docker / libvirt / KVM | Argo CD / GitOps | Nginx / PostgreSQL |
+| Area | Technologies |
+| --- | --- |
+| **AWS compute & application services** | EC2 · Lambda · API Gateway · Step Functions · SQS |
+| **AWS data, access & configuration** | S3 · DynamoDB · ECR · IAM · KMS · SSM |
+| **Infrastructure & delivery** | Terraform · OpenTofu · Ansible · GitHub Actions · Argo CD · GitOps |
+| **Platforms & virtualization** | Kubernetes · VMware Tanzu · vSphere · Docker · libvirt/KVM |
+| **Operations & observability** | Linux · Elasticsearch · Kibana · Filebeat |
+| **Backend & web** | Python · FastAPI · Django · Nginx · PostgreSQL |
 
 <br>
 
@@ -135,7 +159,7 @@ Contributed to a content management system built with Django and PostgreSQL, wor
 
 **Also on my learning path** — VMware Cloud Foundation / VKS administration and RHCSA.
 
-I use hands-on projects to connect study with practical questions: who owns the state, how access is granted, what a deployment changes, and how to troubleshoot it.
+I connect structured study, professional work, and hands-on projects through practical questions: who owns the state, how access is granted, what a deployment changes, and how to troubleshoot it.
 
 <br>
 
